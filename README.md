@@ -43,7 +43,7 @@ The COVID-19 Dashboard relies on a complex architecture, mostly hidden from the 
 When opening the inspect tool on the dashboard on a browser, some information can be gained about the server and processes being utilized. A pair of Javascript files from ESRI does much of the heavy lifting, linked at:
  *‘https://js.arcgis.com/3.35/init.js’
  *‘httpse://gisanddata.maps.arcgis.com/apps/opsdashboard/assets/amd-loading-02cbfb85f129b9c95536fe053a9457cb.js’.
-This generates the map and adds in the data, but provides no documentation except for the terms of use. The remainder of the inspectable code pertains to divisions, which separate the different components of the dashboard.  
+This generates the map and adds in the data, but provides no documentation except for the terms of use. The remainder of the inspectable code pertains to divisions, which separate the different components of the dashboard.
 
 Speculating on the backend systematic architecture, it is likely that the Center for Systems Science and Engineering (CSSE) has an automated steady flow of data from its many sources. This data comes in many different forms and mediums, either being scraped from web pages, obtained via an API, sent directly from the organization to Johns Hopkins University, or some other method of data transfer. The data is combined into a single workable type and location, and a sophisticated algorithm likely constantly allocates new counts to respective geographic areas within a database, generating the aggregated CSSE version of the data. There is likely overlap from various sources, and the program, designed and supervised by experts in their fields, must be able to correctly sort through the data and estimate the exact count of COVID cases and deaths for every nation on Earth. From there, the dashboard is constantly refreshing from this CSSE database, and displaying the most recent data to clients accessing the site.
 ## UI/UX and Web Mapping design
@@ -67,6 +67,7 @@ The ability to aggregate this monumental quantity of data at the speed that the 
 
 ## Bibliography
 Dong, Ensheng, et al. “An Interactive Web-Based Dashboard to Track COVID-19 in Real Time.” The Lancet: Infectous Diseases, vol. 20, no. 5, 19 Feb. 2020, doi:https://doi.org/10.1016/S1473-3099(20)30120-1.
+
 “COVID-19 Dashboard by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU).” ArcGIS Dashboards, gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6.
 
 Natalie Ram, David Gray, Mass surveillance in the age of COVID-19, Journal of Law and the Biosciences, Volume 7, Issue 1, January-June 2020, lsaa023, https://doi.org/10.1093/jlb/lsaa023

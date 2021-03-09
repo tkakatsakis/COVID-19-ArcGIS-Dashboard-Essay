@@ -1,5 +1,5 @@
 # COVID-19-ArcGIS-Dashboard-Essay
-Thomas Kakatsakis  
+Thomas Kakatsakis
 Final essay for course Geography 458 at the University of Washington, analyzing the COVID-19 Dashboard by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU).
 Link: https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
 
@@ -67,9 +67,10 @@ The ability to aggregate this monumental quantity of data at the speed that the 
 
 
 ## Bibliography
-Dong, Ensheng, et al. “An Interactive Web-Based Dashboard to Track COVID-19 in Real Time.” The Lancet: Infectous Diseases, vol. 20, no. 5, 19 Feb. 2020, doi:https://doi.org/10.1016/S1473-3099(20)30120-1.
-
 “COVID-19 Dashboard by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU).” ArcGIS Dashboards, gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6.
+
+Dong, Ensheng, et al. “An Interactive Web-Based Dashboard to Track COVID-19 in Real Time.” The Lancet: Infectous Diseases, vol. 20, no. 5, 19 Feb. 2020, doi:https://doi.org/10.1016/S1473-3099(20)30120-1.  
+
 
 Natalie Ram, David Gray, Mass surveillance in the age of COVID-19, Journal of Law and the Biosciences, Volume 7, Issue 1, January-June 2020, lsaa023, https://doi.org/10.1093/jlb/lsaa023
 
